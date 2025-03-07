@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS testdb;
+USE testdb;
+
+CREATE TABLE IF NOT EXISTS wayfinding_directory (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    office_location VARCHAR(255) NOT NULL,
+    telephone_number VARCHAR(20) NOT NULL,
+    room_number VARCHAR(50) NOT NULL,
+    department VARCHAR(255) NOT NULL,
+    last_modified DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

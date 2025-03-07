@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.sqlite3
+.env
+.venv/
+venv/
+instance/
+config.py
+
+# FastAPI / SQLAlchemy
+migrations/
+alembic/
+
+# Node.js / Vue.js
+node_modules/
+dist/
+*.log
+*.cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+*.tar
+*.pid
+
+# Virtual Environments
+.env/
+*.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs and Database
+logs/
+*.log
+*.sqlite
+db.sqlite3
+
+# VS Code / JetBrains / MacOS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Nginx
+nginx/logs/

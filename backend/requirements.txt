@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+mysql-connector-python
+requests
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+requests
+sqlalchemy
+cryptography
